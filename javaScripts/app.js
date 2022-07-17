@@ -44,7 +44,7 @@ btnReset.addEventListener("click", function () {
   outputBox.style.transform = rotateXYZ();
 });
 
-// copy to console
+// copy 3d-box rotating data to console
 btnCopy.addEventListener("click", function () {
   console.log("transform", outputBox.style.transform);
 });
